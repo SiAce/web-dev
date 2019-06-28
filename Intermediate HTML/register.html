@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Register Site</title>
+</head>
+<body>
+
+<h1>Register</h1>
+
+<form>
+  <div>
+    <label>First Name:
+      <input type="text" name="first_name" placeholder="John" required>
+    </label>
+    <label>Last Name:
+      <input type="text" name="last_name" placeholder="Smith" required>
+    </label>
+  </div>
+
+  <div>
+    <label>Male
+      <input type="radio" name="gender" value="male" required>
+    </label>
+    <label>Female
+      <input type="radio" name="gender" value="female">
+    </label>
+    <label>Other
+      <input type="radio" name="gender" value="other">
+    </label>  
+  </div>
+
+  <div>
+    <label>Email:
+      <input type="email" name="email" placeholder="your email" required>
+    </label>
+    <label>Password:
+      <input type="password" name="password" pattern=".{5,10}" placeholder="your password" title="5 to 10 characters" required>
+    </label>    
+  </div>
+
+  <div>
+    <label>Birthday:
+      <select name="month" required>
+        <option value="">Month</option>
+        <option>Jan</option>
+        <option>Feb</option>
+        <option>March</option>
+      </select>
+      <select name="day" required>
+        <option value="">Day</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+      </select>
+      <select name="year" required>
+        <option value="" selected disabled>Year</option>
+        <option>1997</option>
+        <option>1998</option>
+        <option>1999</option>
+      </select>
+    </label>    
+  </div>
+
+  <p>
+    I agree to the terms and conditions
+    <input type="checkbox" name="agree_term" required>
+  </p>
+
+  <p>
+    I want to receive emails from this site
+    <input type="checkbox" name="receive_email" >
+  </p>
+
+  <input type="submit">
+
+</form>
+
+</body>
+</html>
