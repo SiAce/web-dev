@@ -1,0 +1,28 @@
+  body {
+  border: 20px solid #bdc3c7;
+  margin: 20px 20%; 
+  padding: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+h2 {
+  color: #2c3e50; 
+}
+
+.date {
+  color: #3498db;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.first {
+  border-left: 5px solid #bdc3c7;
+  padding-left: 5px;
+}
+
+hr {
+    border: 0;
+    height: 5px;
+    background-image: linear-gradient(to right, rgba(0, 100, 100, 0.75), rgba(0, 0, 0, 0.75), rgba(100, 0, 100, 0.75));
+}

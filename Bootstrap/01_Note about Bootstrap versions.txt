@@ -1,0 +1,21 @@
+Note about Bootstrap versions
+Hi Everyone!
+
+In this section Colt will teach you Bootstrap 3.
+
+Bootstrap now has a new version (4). Colt teaches version 3 in this section and version 4 in the next.
+
+While working in this section, please use the original documentation for version 3 and ensure that you're using version 3.3.7 in your code as you're following along with the lectures.
+
+Why teach both versions?
+Many companies still use version 3, so if you know both versions then you can easily help them migrate to version 4.
+
+Also, the YelpCamp project in the back-end section of this course uses version 3, so if you don't know the version 3 syntax it will be more difficult to follow along.
+
+Once you've completed the YelpCamp project, then you can use this guide to upgrade your code from Bootstrap 3 to version 4.
+
+
+
+Thanks,
+Ian
+Course TA
