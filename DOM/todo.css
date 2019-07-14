@@ -1,0 +1,11 @@
+/*li:hover {
+  color: green;
+}*/
+
+.selected {
+  color: green;
+}
+
+.done {
+  text-decoration: line-through;
+}
