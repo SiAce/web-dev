@@ -1,0 +1,68 @@
+body {
+  background-color: #77AA66;
+  font-family: Trebuchet MS;
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  background-color: steelblue;
+  margin: 0;
+  font-weight: normal;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+button {
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  height: 100%;
+  transition: all 0.3s;
+  color: inherit;
+  outline: none;
+}
+
+button:hover {
+  color: white;
+  background-color: #33cccc;
+}
+
+.square {
+  width: 30%;
+  background: purple;
+  padding-bottom: 30%;
+  float: left;
+  margin: 1.5%;
+  border: 1px dashed white;
+  border-radius: 10%;
+  transition: all 0.4s;
+}
+
+.selected {
+  background-color: steelblue;
+  color: white;
+}
+
+#stripe {
+  text-align: center;
+  background-color: white;
+  height: 30px;
+  color: steelblue;
+}
+
+#container {
+  max-width: 600px;
+  margin: 10px auto;
+}
+
+#colorDisplay {
+  font-size: 150%;
+}
+
+#message {
+  display: inline-block;
+  width: 20%;
+}
