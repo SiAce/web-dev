@@ -1,28 +1,28 @@
-var express = require("express");
-var app = express();
-var bodyParser = require("body-parser");
+const express = require('express');
 
-var friends = ["Geralt", "Ciri", "Yennefer", "Triss"];
+const app = express();
+const bodyParser = require('body-parser');
 
-app.use(bodyParser.urlencoded({extended: true}));
+const friends = ['Geralt', 'Ciri', 'Yennefer', 'Triss'];
 
-app.set("view engine", "ejs");
+app.use(bodyParser.urlencoded({ extended: true }));
 
-app.get("/", function(req, res){
-    res.render("home");
-})
+app.set('view engine', 'ejs');
 
-app.get("/friends", function(req, res){
+app.get('/', (req, res) => {
+  res.render('home');
+});
 
-    res.render("friends", {friends: friends});
-})
+app.get('/friends', (req, res) => {
+  res.render('friends', { friends });
+});
 
-app.post("/addfriend", function(req, res) {
-    var newFriend = req.body.newfriend;
-    friends.push(newFriend);
-    res.redirect("/friends");
-})
+app.post('/addfriend', (req, res) => {
+  const newFriend = req.body.newfriend;
+  friends.push(newFriend);
+  res.redirect('/friends');
+});
 
-app.listen(3000, function(){
-    console.log("server started at port 3000");
-})
+app.listen(3000, () => {
+  console.log('server started at port 3000');
+});
