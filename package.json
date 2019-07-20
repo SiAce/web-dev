@@ -1,0 +1,24 @@
+{
+  "name": "web-dev",
+  "version": "1.0.0",
+  "description": "full stack web dev",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SiAce/web-dev.git"
+  },
+  "author": "SiAce",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SiAce/web-dev/issues"
+  },
+  "homepage": "https://github.com/SiAce/web-dev#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
