@@ -1,0 +1,12 @@
+body{
+    background-image: linear-gradient(to bottom right, skyblue , Turquoise);
+    background-attachment: fixed;
+}
+
+i.icon {
+    font-size: 2em;
+}
+
+.ui.container {
+    margin-top: 5em;
+}

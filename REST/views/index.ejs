@@ -1,0 +1,18 @@
+<% include partials/header.ejs %>
+
+<div class="ui text container segment">
+  <h1>All Posts</h1>
+
+  <% blogs.forEach((blog) => { %>
+  <div>
+    <div class="ui divider"></div>
+    <h2><%= blog.title %></h2>
+    <img class="ui centered rounded image" src="<%= blog.image %>">
+    <span><%= blog.created %></span>
+    <p><%= blog.body.substring(0, 100) %>...</p>
+    <a href="/blogs/<%= blog._id %>">Read More</a>
+  </div>
+  <% }) %>
+</div>
+
+<% include partials/footer.ejs %>
